@@ -2,7 +2,8 @@
 
 #include <stdio.h>
 
-/* main - prog that prints all single digits of base 10 starting from 0
+/* 
+ * main - prog that prints all single digits of base 10 starting from 0
  *
  * Returm: 0
  */
@@ -10,8 +11,9 @@
 int main(void)
 {
 	char singledig;
-	for (singledig = 0; singledig < 10; singledig++)
-	putchar(singledig);
 
+	for (singledig = 0; singledig < 11; singledig++)
+	putchar(singledig);
+	putchar("\n");
 	return (0);
 	}
