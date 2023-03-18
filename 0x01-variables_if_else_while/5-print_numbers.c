@@ -13,7 +13,7 @@ int main(void)
 	char singledig;
 
 	for (singledig = 0; singledig < 10; singledig++)
-	putchar("%d", singledig);
+	putchar(singledig);
 
 	return (0);
 	}
