@@ -13,9 +13,10 @@ int main(void)
 	char alphaa[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
 	for (i = 0; i <= 26; i++)
-		putchar(alphaa[i]);
 	{
+		putchar(alphaa[i]);
+}
 		putchar("\n");
-	}
+	
 		return (0);
 }
