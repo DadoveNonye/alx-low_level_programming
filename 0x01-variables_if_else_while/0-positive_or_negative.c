@@ -1,5 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
+
 /* 0-positive_or_negative.c */
 
 /* A script that prints random number and indicate if they are positive, negative or zero */
