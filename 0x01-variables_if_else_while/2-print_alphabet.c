@@ -1,22 +1,22 @@
-/*2-print_alphabet.c*/
-
-#include<stdio.h>
-
-/**
- * main -  program that prints the alphabet in lowercase,
- *  followed by a new line.
- *  Return: always o.
+/*
+ * File: 2-print_alphabet.c
  */
 
+#include <stdio.h>
+
+/**
+ * main - Prints the alphabet in lowercase.
+ *
+ * Return: Always 0.
+ */
 int main(void)
 {
-	char alphaa[26] = "abcdefghijklmnopqrstuvwxyz";
-	int i;
-	for (i = 0; i <= 26; i++)
-	{
-		putchar(alphaa[i]);
-}
-		putchar("\n");
-	
-		return (0);
+	char letter;
+
+	for (letter = 'a'; letter <= 'z'; letter++)
+		putchar(letter);
+
+	putchar('\n');
+
+	return (0);
 }
