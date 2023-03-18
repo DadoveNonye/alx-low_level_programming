@@ -14,6 +14,6 @@ int main(void)
 
 	for (singledig = 0; singledig < 11; singledig++)
 	putchar(singledig);
-	putchar("\n");
+
 	return (0);
 	}
