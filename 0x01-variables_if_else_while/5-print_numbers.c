@@ -5,7 +5,7 @@
 /**
  * main - Prog that prints all single digits of base 10 starting from 0.
  *
- * Returm: 0
+ * Return: 0
  */
 
 int main(void)
