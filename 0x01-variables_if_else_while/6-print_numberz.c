@@ -11,9 +11,9 @@ int main(void)
 {
 	int singledigits;
 
-	for (singledigits = 0; singledigits < 12; singledigits++)
+	for (singledigits = 0; singledigits < 11; singledigits++)
 
-		putchar(singledigits % 10);
+		putchar((singledigits % 10) + '0');
 
 	return (0);
 }
