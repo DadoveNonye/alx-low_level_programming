@@ -12,8 +12,8 @@ int main(void)
 
 		for (reverse = 'z'; reverse >= 'a'; reverse--)
 		{
-			putchar(reverse);
-		}	
+			putchar((reverse) + ' ');
+		}
 			return (0);
 }
 
