@@ -14,6 +14,6 @@ int main(void)
 	for (singledigits = 0; singledigits < 10; singledigits++)
 
 		putchar((singledigits % 10) + '0');
-	putchar("\n");
+
 	return (0);
 }
