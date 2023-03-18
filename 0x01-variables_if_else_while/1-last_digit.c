@@ -1,4 +1,4 @@
-/*1-last_digit.c*/
+/* 1-last_digit.c */
 
 #include <stdlib.h>
 #include <time.h>
