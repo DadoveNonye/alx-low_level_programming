@@ -2,8 +2,8 @@
 
 #include <stdio.h>
 
-/* 
- * main - prog that prints all single digits of base 10 starting from 0
+/*
+ * main - prog that prints all single digits of base 10 starting from 0.
  *
  * Returm: 0
  */
