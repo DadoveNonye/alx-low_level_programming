@@ -10,10 +10,10 @@
 
 int main(void)
 {
-	char alphaa;
-
-	for (alphaa = "a"; alphaa <= "z"; alphaa++)
-		putchar(alphaa);
+	char alphaa[24] = "abcdefghijklmnopqrstuvwxyz";
+	int i
+	for (i = "a"; i <= "z"; i++)
+		putchar(alphaa[i]);
 
 		putchar("\n");
 
