@@ -14,6 +14,6 @@ int main(void)
 
 	for (singledig = 0; singledig < 10; singledig++)
 	printf("%d", singledig);
-	printf("\n")
+	printf("\n");
 	return (0);
 	}
