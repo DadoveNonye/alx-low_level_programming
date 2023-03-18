@@ -5,7 +5,7 @@
 #include <stdio.h>
 
 /**
- *  will assign a random number to the variable n each time it is executed.
+ * main -  will assign a random number to the variable n each time it is executed.
  * Return: always 0.
  *  */
 
