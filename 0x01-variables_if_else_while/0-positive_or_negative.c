@@ -8,7 +8,7 @@
 /**
  * main - A script that prints random number and
  *  indicate if they are positive, negative or zero
- *  return : 0
+ *  Return: should be 0
  */
 int main(void)
 {
