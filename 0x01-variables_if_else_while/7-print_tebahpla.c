@@ -12,7 +12,7 @@ int main(void)
 
 		for (reverse = 'z'; reverse >= 'a'; reverse--)
 		{
-			putchar(reverse"\n");
+			putchar(reverse);
 		}
 			return (0);
 }
