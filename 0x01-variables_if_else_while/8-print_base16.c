@@ -14,8 +14,9 @@ int main(void)
 
 		for (base16 = 0; base16 <= 15; base16++)
 			putchar ((base16 % 15) + '0');
-		for (alpha = "a"; alpha <= 'o'; alpha++)
-			putchar (alpha)
+
+		for (alpha = 'a'; alpha <= 'o'; alpha++)
+			putchar (alpha);
 		/*	putchar ("\n")*/	
 
 		return (0);
