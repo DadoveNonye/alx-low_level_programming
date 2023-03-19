@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - program that prints all possible different combinations of three digits.
+ * main - program that prints different combinations of three digits.
  * Return: 0
  */
 
@@ -18,9 +18,9 @@ int main(void)
 		{
 			putchar((num1 % 10) + '0');
 			putchar((num2 % 10) + '0');
-			/*putchar((num3 % 10) + '0');*/
+			putchar((num3 % 10) + '0');
 
-			if (num1 == 7 && num2 == 8 && num3 == 9)
+			if (num1 == 0 && num2 == 4 && num3 == 9)
 				continue;
 
 			putchar(',');
