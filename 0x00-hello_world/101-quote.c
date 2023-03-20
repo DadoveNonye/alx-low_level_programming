@@ -1,5 +1,5 @@
 /* 101-quote.c */
-#include <stdio.h>
+#include <unistd.h>
 
 /**
  * main - prints and that piece of art is useful" - Dora Korpar, 2015-10-19
@@ -8,6 +8,7 @@
  */
 int main(void)
 {
-	fwrite("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n,");
+	write("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n,#include <unistd.h>
+");
 		return(1);
 }
