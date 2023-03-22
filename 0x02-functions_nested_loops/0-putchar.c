@@ -6,7 +6,7 @@
 #include "main.h"
 
 /**
- * main - Prints putchar followed by a new line.
+ * _putchar - Prints putchar followed by a new line.
  *
  * Return: 0.
  */
