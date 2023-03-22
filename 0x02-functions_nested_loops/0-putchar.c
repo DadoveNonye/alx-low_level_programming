@@ -1,16 +1,11 @@
-/*
- * File: 0-putchar.c
- *
- */
-
 #include "main.h"
 
 /**
- * _putchar - Prints putchar followed by a new line.
+ * main - Prints putchar followed by a new line.
  *
  * Return: 0.
  */
-int _putchar(void)
+int main(void)
 {
 	_putchar('_');
 	_putchar('p');
