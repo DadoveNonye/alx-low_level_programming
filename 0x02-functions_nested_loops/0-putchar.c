@@ -10,7 +10,7 @@
  *
  * Return: 0.
  */
-int _putchar(int)
+int _putchar(void)
 {
 	_putchar('_');
 	_putchar('p');
