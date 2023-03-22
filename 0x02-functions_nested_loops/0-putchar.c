@@ -10,7 +10,7 @@
  *
  * Return: 0.
  */
-int _putchar(char)
+int _putchar(int)
 {
 	_putchar('_');
 	_putchar('p');
