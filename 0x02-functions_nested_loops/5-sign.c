@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * int print_sign - script that check sign of alphabet
+ * print_sign - script that check sign of alphabet
  * @n: alphabet to be checked
  * Return: 1
  */
