@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - A function that prints its name
+ * main - A function that number of arg passed into it
  * @argc: Argument count
  * @argv: Argument vector
  * Return: 0
@@ -10,7 +10,8 @@
 
 int main(int argc, char *argv[])
 {
-	if (argc > 0)
-		printf("%s\n", argv[0]);
+	if (argv[0])
+		printf("%d\n", argc - 1);
+
 	return (0);
 }
