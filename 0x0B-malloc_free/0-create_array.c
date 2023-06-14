@@ -6,7 +6,7 @@
  * and initialize with a specific char
  * @size: size of the array
  * @c: assigned char
- * Description: creat array chars
+ * Description: create array chars
  * return: pointer || null
  */
 
