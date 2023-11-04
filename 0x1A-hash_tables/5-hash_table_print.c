@@ -4,6 +4,7 @@
  * hash_table_print - Print the key-value pairs from the hash table
  * @ht: Pointer to the hash table
  */
+
 void hash_table_print(const hash_table_t *ht)
 {
     unsigned long int i = 0;

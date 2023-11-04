@@ -5,6 +5,7 @@
  * @ht: Pointer to the sorted hash table
  * @new_node: New node to insert
  */
+
 void sorted_list(shash_table_t *ht, shash_node_t *new_node)
 {
     shash_node_t *sbucket = ht->shead;
@@ -47,6 +48,7 @@ void sorted_list(shash_table_t *ht, shash_node_t *new_node)
  *
  * Return: Pointer to the hash table
  */
+
 shash_table_t *shash_table_create(unsigned long int size)
 {
     shash_table_t *table;
@@ -77,6 +79,7 @@ shash_table_t *shash_table_create(unsigned long int size)
  *
  * Return: 1 if it succeeded, 0 otherwise
  */
+
 int shash_table_set(shash_table_t *ht, const char *key, const char *value)
 {
     unsigned long int index = 0;
@@ -132,6 +135,7 @@ int shash_table_set(shash_table_t *ht, const char *key, const char *value)
  *
  * Return: Value associated with the key, or NULL if the key does not exist
  */
+
 char *shash_table_get(const shash_table_t *ht, const char *key)
 {
     unsigned long int index = 0;
@@ -158,6 +162,7 @@ char *shash_table_get(const shash_table_t *ht, const char *key)
  * shash_table_print - Prints the key-value pairs from the sorted hash table
  * @ht: Pointer to the sorted hash table
  */
+
 void shash_table_print(const shash_table_t *ht)
 {
     shash_node_t *bucket;
@@ -186,6 +191,7 @@ void shash_table_print(const shash_table_t *ht)
  * pairs from the sorted hash table in reverse
  * @ht: Pointer to the sorted hash table
  */
+
 void shash_table_print_rev(const shash_table_t *ht)
 {
     shash_node_t *bucket;
@@ -213,6 +219,7 @@ void shash_table_print_rev(const shash_table_t *ht)
  * shash_table_delete - Frees the sorted hash table and all its nodes
  * @ht: Pointer to the sorted hash table
  */
+
 void shash_table_delete(shash_table_t *ht)
 {
     shash_node_t *bucket, *aux_free;

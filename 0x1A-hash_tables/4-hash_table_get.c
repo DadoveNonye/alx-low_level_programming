@@ -4,10 +4,10 @@
  * hash_table_get - Retrieve a value associated with a key
  * @ht: Pointer to the hash table
  * @key: Key to retrieve the value
- *
  * Return: The value associated with the key,
  *or NULL if the key doesn't exist.
  */
+
 char *hash_table_get(const hash_table_t *ht, const char *key)
 {
     unsigned long int index = 0;

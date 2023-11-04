@@ -4,6 +4,7 @@
  * hash_table_delete - Frees a hash table and all its nodes
  * @ht: Pointer to the hash table
  */
+
 void hash_table_delete(hash_table_t *ht)
 {
     hash_node_t *bucket, *aux_free;
